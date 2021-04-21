@@ -10,7 +10,7 @@ class Pessoa:
     def exibe_nome_e_sobrenome(self):
         print("O nome completo:{0} {1}".format(self.nome.title(), self.sobrenome.title()))# title() coloca a primeira palavra em maiusculo
 
-    def sua_idade(self):
+    def data_de_nascimento(self):
         print("{}/{}/{}".format(self.dia_nascimento, self.mes_nascimento, self.ano_nascimento))
 
     def calcular_idade(self, ano_nascimento):
