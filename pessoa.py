@@ -20,3 +20,4 @@ class Pessoa:
 pessoa = Pessoa("augusto", "simoes", 300, 12, 4, 1972)
 pessoa.calcular_idade(1959)
 pessoa.exibe_nome_e_sobrenome()
+pessoa.data_de_nascimento()
