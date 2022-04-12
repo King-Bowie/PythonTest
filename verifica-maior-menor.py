@@ -1,4 +1,4 @@
-maior = menor = 0
+quant = maior = menor = 0
 for numero in range(0,5):
     num = int(input('Digite um numero: '))    
     quant += 1
